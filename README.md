@@ -19,6 +19,15 @@ Data was sourced from the Protein-Protein Docking Benchmark v5.5 (Weng Lab: http
 The automated pipeline executes the following sequential steps:
 `Download Raw Data` ➔ `Verify HTML Table` ➔ `Extract PDB Sequences & Chains` ➔ `Transform & Clean Data` ➔ `Generate Relational Schema` ➔ `Load to SQLite Database` ➔ `Validate Outputs`
 
+
+---
+
+### Results 
+
+<img width="732" height="594" alt="er_diagram" src="https://github.com/user-attachments/assets/a78277ea-0b1c-4b6b-9bd9-04c9ce395468" />
+
+This is how the final database was organized. Once the database was populated, several SQL queries were executed to validate the data and extract biological insights.
+
 ---
 
 ### Repository Structure
